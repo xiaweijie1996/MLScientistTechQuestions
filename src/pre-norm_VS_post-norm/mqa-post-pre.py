@@ -111,8 +111,6 @@ class EncoderBlock(nn.Module):
         x = self.norm2(x + self.fnn(x))
         return x
         
-        
-            
     
 if __name__ == "__main__":
     import matplotlib.pyplot as plt
