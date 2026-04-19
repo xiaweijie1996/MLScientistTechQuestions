@@ -82,7 +82,7 @@ class MoeLayer(nn.Module):
                 ):
         B, s_l, _ = input.shape
         
-        logits, k_logits, k_prob,  k_index = self.router(input)
+        logits, k_logits, k_prob, k_index = self.router(input)
         
         input_flat = input.reshape(B * s_l, self.emb_dim) # (B * s_l, self.emb_dim)
         k_index_flat = k_index.reshape(B * s_l, -1) # (B * s_l, k)
