@@ -73,6 +73,9 @@ This table covers the example notebooks and scripts currently under [`src`](src)
 | Attention | Grouped-query attention | Python script | [src/groupattention/groupqueryattention.py](src/groupattention/groupqueryattention.py) | Script version of grouped-query attention logic |
 | Attention | Multi-query attention | Notebook | [src/groupattention/multiqueryattention.ipynb](src/groupattention/multiqueryattention.ipynb) | Multi-query attention concepts and implementation |
 | Attention | Multi-query attention | Python script | [src/groupattention/multiqueryattention.py](src/groupattention/multiqueryattention.py) | Script version of multi-query attention logic |
+| Python | Retrieval + Mistral mock interview | Guide | [src/python-related/mock_interview_mistral_retrieval.md](src/python-related/mock_interview_mistral_retrieval.md) | Step-by-step mock interview prompt for API orchestration practice |
+| Python | Retrieval + Mistral mock interview | Python script | [src/python-related/mock_interview_mistral_retrieval_starter.py](src/python-related/mock_interview_mistral_retrieval_starter.py) | Starter exercise with TODOs for retrieval and prompt construction |
+| Python | Retrieval + Mistral mock interview | Python script | [src/python-related/mock_interview_mistral_retrieval_solution.py](src/python-related/mock_interview_mistral_retrieval_solution.py) | Reference solution for the mock interview pipeline |
 | Attention | Rotary embedding | Notebook | [src/rotary-embedding/rotaryembedding.ipynb](src/rotary-embedding/rotaryembedding.ipynb) | RoPE equations, intuition, and self-attention integration |
 | Precision | Mixed precision | Notebook | [src/mixed-precision/mixedprecision.ipynb](src/mixed-precision/mixedprecision.ipynb) | AMP and precision tradeoffs in training |
 | Routing | Mixture of Experts | Notebook | [src/moe/moe.ipynb](src/moe/moe.ipynb) | Sparse expert routing, top-k dispatch, and load balancing |
